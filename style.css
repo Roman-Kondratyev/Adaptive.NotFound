@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+body {
+    width: 1440px;
+    background: #F3F5F6;
+}
+
+.note {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    width: 400px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin-top: 269px;
+    width: 590px;
+    height: 34px;
+    font: 400 24px 'Inter';
+    color: rgba(60, 60, 67, 0.85);
+}
+
+h1 {
+    margin-top: 16px;
+    width: 590px;
+    height: 116px;
+    font: 700 48px 'Inter';
+    color: #000000;
+}
+
+.btn div {
+    padding-top: 20px;
+    font: 700 16px 'Inter';
+    text-align: center;
+    color: #FFFFFF;
+    width: 145px;
+    height: 45px;
+    background: #6F1DF4;
+    border-radius: 8px;
+}
+
+.number {
+    margin-top: 200px;
+    width: 510px;
+    height: 303px;
+    font: 700 250px 'Inter';
+    color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    .note {
+        flex-direction: column-reverse;
+        margin: 80px auto;
+        text-align: center;
+        margin: 0;
+    }
+
+    .number {
+        width: 400px;
+        font: 700 200px 'Inter';
+        margin-top: 123px;
+        margin-left: 30px;
+    }
+
+    p {
+        margin-top: 5px;
+        margin-left: 45px;
+        width: 700px;
+        font: 400 20px 'Inter';
+    }
+
+    h1 {
+        width: 420px;
+        font: 700 32px 'Inter';
+        text-align: center;
+        margin-left: 180px;
+    }
+
+    .btn {
+        align-items: center;
+        width: 300px;
+        margin-left: 230px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        width: 100%;
+    }
+
+    .note {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .number {
+        width: 300px;
+        font: 700 110px 'Inter';
+        margin-top: 134px;
+        margin-left: 180px;
+    }
+
+    p {
+        margin-top: -170px;
+        margin-left: 200px;
+        width: 343px;
+        font: 400 18px 'Inter';
+    }
+
+    h1 {
+        width: 343px;
+        font: 700 28px 'Inter';
+        margin-left: 220px;
+    }
+
+    .btn {
+        margin-top: -15px;
+        flex-direction: column-reverse;
+        width: auto;
+        margin-right: 50px;
+
+    }
+
+    .btn div {
+        margin-top: 20px;
+    }
+
+}
